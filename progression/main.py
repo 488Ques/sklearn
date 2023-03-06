@@ -17,4 +17,4 @@ lr.fit(X_train, y_train)
 y_pred = lr.predict(X_test)
 mse = mean_squared_error(y_test, y_pred)
 
-print("Mean Squared Error:", mse)
+print("Mean Squared Error:", mse) # Mean Squared Error: 0.5558915986952429

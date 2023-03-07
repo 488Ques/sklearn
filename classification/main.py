@@ -20,4 +20,4 @@ y_pred = knn.predict(X_test)
 
 # Evaluate the accuracy of the model
 accuracy = accuracy_score(y_test, y_pred)
-print("Accuracy:", accuracy)
+print("Accuracy:", accuracy) # Accuracy: 1.0
